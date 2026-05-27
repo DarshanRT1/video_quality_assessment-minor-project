@@ -1,0 +1,32 @@
+/home/drive3/low_encoder/benchmark_models.py:30: UserWarning: mods argument is not needed anymore, you can stop passing it
+  with FlopCounterMode(model, display=False) as flop_counter:
+
+========================================
+Benchmarking X3D-XS
+Input: 4 frames, 160x160
+========================================
+Parameters: 2.01 M
+GFLOPs: 1.191
+
+Running latency benchmark...
+Average Inference Latency (Batch Size 1): 4.55 ms
+
+========================================
+Benchmarking X3D-S
+Input: 13 frames, 160x160
+========================================
+Parameters: 2.01 M
+GFLOPs: 3.868
+
+Running latency benchmark...
+Average Inference Latency (Batch Size 1): 4.59 ms
+
+========================================
+Benchmarking X3D-M
+Input: 16 frames, 256x256
+========================================
+Parameters: 2.01 M
+GFLOPs: 12.188
+
+Running latency benchmark...
+Average Inference Latency (Batch Size 1): 4.64 ms

@@ -1,0 +1,32 @@
+/home/drive3/low_encoder/benchmark_end_to_end.py:49: UserWarning: mods argument is not needed anymore, you can stop passing it
+  with FlopCounterMode(model, display=False) as flop_counter:
+
+========================================
+End-to-End Benchmarking X3D-XS + MLP
+Input: 4 frames, 160x160
+========================================
+Exact Parameters: 2,403,834
+Exact GFLOPs: 1.192488
+
+Running latency benchmark...
+Exact Inference Latency (Batch Size 1): 4.7157 ms
+
+========================================
+End-to-End Benchmarking X3D-S + MLP
+Input: 13 frames, 160x160
+========================================
+Exact Parameters: 2,403,834
+Exact GFLOPs: 3.870434
+
+Running latency benchmark...
+Exact Inference Latency (Batch Size 1): 4.3497 ms
+
+========================================
+End-to-End Benchmarking X3D-M + MLP
+Input: 16 frames, 256x256
+========================================
+Exact Parameters: 2,403,834
+Exact GFLOPs: 12.189921
+
+Running latency benchmark...
+Exact Inference Latency (Batch Size 1): 7.0365 ms

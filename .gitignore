@@ -1,0 +1,27 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Large generated artifacts and datasets
+checkpoints/
+features/
+features_10k_m/
+features_10k_s/
+features_10k_xs/
+model_outputs/
+model_outputs_v2/
+results/
+results_10k/
+results_10k_m/
+results_10k_s/
+results_10k_xs/
+
+# Optional system files
+.DS_Store
